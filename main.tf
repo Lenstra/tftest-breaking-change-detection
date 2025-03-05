@@ -3,10 +3,10 @@ terraform {
 }
 
 
-variable "my_super_variable" {
+variable "my_new_super_variable" {
 
 }
 
 output "my_super_output" {
-  value = var.my_super_variable
+  value = var.my_new_super_variable
 }

@@ -2,7 +2,7 @@ run "old_code" {
   state_key = "module_test"
 
   variables {
-    my_super_variable = "toto"
+    my_new_super_variable = "toto"
   }
 
   module {
@@ -14,6 +14,6 @@ run "new-code" {
   state_key = "module_test"
 
   variables {
-    my_super_variable = "toto"
+    my_new_super_variable = "toto"
   }
 }
