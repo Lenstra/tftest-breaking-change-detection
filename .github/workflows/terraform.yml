@@ -46,7 +46,7 @@ name: 'Terraform'
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
 
 permissions:
@@ -72,7 +72,7 @@ jobs:
     - name: Checkout master to ./old-code
       uses: actions/checkout@v4
       with:
-        ref: master
+        ref: main
         path: old-code
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
